@@ -1,0 +1,8 @@
+numpy>=1.23.3
+opencv_python==4.6.0.66
+matplotlib>=3.5.0
+tensorflow>=2.11.0
+torch>=1.13.0
+torchvision>=0.14.0
+tqdm>=4.64.1
+wandb>=0.15.3

@@ -1,0 +1,32 @@
+{
+    "SSWM": {
+        "OC_config": "spriteworld_SA",
+        "batch_size": 12,
+        "epochs": 2,
+        "learning_rate": 0.0005,
+        "sigma": 0.5,
+        "hidden_dim": 512,
+        "action_dim": 4,
+        "dataset": "data/spriteworld_test_0.h5",
+        "experiment": 1
+    },
+    "CSWM": {
+        "dataset": "data/spriteworld_test_0.h5",
+        "embedding_dim": 64,
+        "hidden_dim": 512,
+        "batch_size": 12,
+        "epochs": 2,
+        "learning_rate": 0.0005,
+        "action_dim": 4,
+        "num_objects": 6,
+        "sigma": 0.5,
+        "hinge":1,
+        "input_dim": [3, 64, 64],
+        "ignore_action": false,
+        "copy_action": false,
+        "embodied": true,
+        "encoder":"medium",
+        "num_feat": 4,
+        "OC-config": null
+    }
+}

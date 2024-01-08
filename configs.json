@@ -1,0 +1,14 @@
+{
+    "spriteworld_SA": {
+        "data_path": "data/spriteworld_test_0.h5",
+        "ckpt_path": "slot_attention/checkpoints/spriteworld/",
+        "resolution": [64,64],
+        "num_slots": 6,
+        "num_iterations": 3,
+        "slots_dim": 64,
+        "small_arch": true,
+        "batch_size": 12,
+        "learning_rate": 0.0004,
+        "num_epochs": 1
+    }
+}
