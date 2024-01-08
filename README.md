@@ -3,6 +3,7 @@ Repository containing the code for the paper "Slot Structured World Models".
 
 <img src="figures/SSWM.png" alt="SSWM-Architecture" width="800"/>
 <br><br>
+
 ## Dataset
 The dataset used for the experimentation in has been collected by hand (and therefore cannot be generated through a command) and is to heavy (about 8GB) to be uploaded. We will release the dataset on drive once the review process is over. 
 <br>
